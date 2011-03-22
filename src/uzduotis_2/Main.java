@@ -7,7 +7,6 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -43,7 +42,7 @@ public class Main {
                 System.out.println(s);
                 out.append(s + "\n");
             }
-            System.out.println(counter);
+            System.out.println("Number of words that are from upper case letters is: " + counter);
             out.append(counter.toString());
             out.close();
         } catch (IOException ex) {
