@@ -1,0 +1,3 @@
+Duomenys įvedami iš failo. Reikia surasti ir išvesti į failą ir
+ekraną visus didžiąja raide prasidedančius žodžius.
+Apskaičiuoti kiek jų yra iš viso.
